@@ -1,5 +1,6 @@
 """
 Aplikasi Deteksi Gempa Terkini
+Modularisasi dengan function
 """
 
 
@@ -28,7 +29,7 @@ def tampilkan_data(result):
     print(f"Tanggal{result['tanggal']}")
     print(f"Waktu{result['waktu']}")
     print(f"Magnitudo{result['magnitudo']}")
-    print(f"Lokasi{result['lokasi']}")
+    print(f"Lokasi: 'LS'={result['lokasi']['ls']}, 'BT'={result['lokasi']['bt']}")
     print(f"Pusat{result['pusat gempa']}")
     print(f"Dirasakan{result['dirasakan']}")
 
