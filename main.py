@@ -1,6 +1,7 @@
 """
 Aplikasi Deteksi Gempa Terkini
 Modularisasi dengan function
+Modularisasi dengan package
 """
 
 from gempa_terkini import ektraksi_data, tampilkan_data
